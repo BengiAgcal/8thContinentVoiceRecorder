@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>The Eighth Continent</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+  </head>
+  <body>
+      <h1>The Eighth Continent</h1>
+      <br />
+      <div class="gg">
+          <p>Here, you can say anything you want to share about environmental pollution. All thoughts, experiences, and emotions are welcome.</p>
+      </div>
+
+      <div class="bot">
+          <p> <small> Record your voice below! </small></p>
+          <div id="controls">
+              <button id="recordButton">Record</button>
+              <button id="pauseButton" disabled>Pause</button>
+              <button id="stopButton" disabled>Stop</button>
+          </div>
+          <br />
+          <div>
+              <ol id="recordingsList"></ol>
+          </div>
+
+
+      </div>
+
+
+      <!-- inserting these scripts at the end to be able to use all the elements in the DOM -->
+      <script src="js/recorder.js"></script>
+      <script src="https://markjivko.com/dist/recorder.js"></script>
+      <script src="js/app.js"></script>
+  </body>
+</html>
